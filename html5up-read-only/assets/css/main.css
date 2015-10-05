@@ -17,7 +17,9 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
-
+ .created{
+	 color: #000;
+ }
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -82,6 +84,7 @@
 	}
 
 	.container {
+
 		width: 45em;
 	}
 
@@ -1700,7 +1703,7 @@
 	}
 
 	header p {
-		color: #aaa;
+		color: #000;
 		position: relative;
 		margin: 0 0 1.6875em 0;
 	}
@@ -1726,12 +1729,12 @@
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #3D5076;
 		font-size: 3.5em;
 	}
 
 		header.major h2 + p {
-			color: #777;
+			color: #000;
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
@@ -1789,7 +1792,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #000;
 		}
 
 	.select-wrapper {
@@ -1899,7 +1902,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4acaa8;
+			border-color: #6585C5;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2092,7 +2095,7 @@
 				}
 
 				ul.feature-icons li:before {
-					background: #4acaa8;
+					background: #6585C5;
 					border-radius: 100%;
 					color: #ffffff;
 					display: block;
@@ -2379,7 +2382,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #4acaa8;
+			background-color: #6585C5;
 			color: #ffffff !important;
 		}
 
@@ -2412,7 +2415,6 @@
 		}
 
 /* Features */
-
 	.features article {
 		border-top: solid 3px #f4f4f4;
 		margin-bottom: 2.25em;
@@ -2449,7 +2451,7 @@
 /* Header */
 
 	#header {
-		background: #4acaa8;
+		background: #000;
 		color: #d1f1e9;
 		height: 100%;
 		position: fixed;
@@ -2460,7 +2462,7 @@
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #000;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
@@ -2468,7 +2470,7 @@
 			}
 
 		#header header p {
-			color: #b6e9dc;
+			color: #000;
 		}
 
 		#header a {
@@ -2542,7 +2544,7 @@
 
 					#header > nav ul li a.active {
 						background: #fff;
-						color: #4acaa8 !important;
+						color: #6585C5 !important;
 					}
 
 				#header > nav ul li:first-child {
@@ -2571,9 +2573,17 @@
 		}
 
 /* One */
-
+	#one{
+		background-image: url("../../images/mist.jpg");
+	}
+	#two{
+		background-image: url("../../images/fog.jpg");
+	}
+	#three{
+		background-image: url("../../images/mist.jpg");
+	}
 	#one:before {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/banner2.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -2821,7 +2831,7 @@
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: #6585C5;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
